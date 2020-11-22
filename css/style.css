@@ -1,0 +1,184 @@
+body
+{
+	margin: 0;
+}
+img
+{
+	max-width: 100%;
+}
+header{
+	box-shadow: 0 3px 15px #00000017;
+}
+.wrapper{
+	width: 1200px;
+	margin: auto;
+	overflow: hidden;
+}
+.logo{
+	display: block;
+	width: 20%; 
+	height:88px;
+	float: left;
+}
+
+nav{
+	width: 80%;
+	float: right;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+nav ul li{  
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav ul li a{
+	font-family: sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
+	padding: 35px 20px;
+	color: #242166;
+}
+nav ul li a:hover
+{
+	color: #65c4f1;
+}
+
+.banner-sec{
+	text-align: center;
+	padding: 30px 0;
+}
+.banner-sec h1{
+	font-family: sans-serif;
+	margin: 0;
+	font-size: 65px;
+	color: #242166;
+	padding: 0 140px;
+}
+.banner-sec h1 span{
+	color: #65c4f1;
+}
+.banner-sec p{
+	color: #242166;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.feature{
+	margin-bottom: 30px;
+}
+.main-pic{
+}
+.main-pic img
+{
+	height: 400px;
+	display: block;
+	margin: auto;
+}
+.proud{
+	padding: 70px 0 100px 0;
+}
+.column1{
+	width: 50%;
+	float: left;
+}
+
+.service2 h2{
+	color: #242166;
+	font-family: sans-serif;
+	font-size: 40px;
+	margin: 0;
+}
+.service1
+{
+	text-align: right;
+}
+.service1 h2
+{
+	color: orange;
+	font-family: sans-serif;
+	font-size: 40px;
+	margin: 0;
+
+}
+.service1 p
+{
+	font-family: sans-serif;
+	color: #242166;
+	font-size: 20px;
+	font-weight: bold;
+}
+.service1, .service2
+{
+	padding: 15px;
+}
+.cards-sec
+{
+	margin-bottom: 100px;
+}
+.column2
+{
+	width: 33.33%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+ .c1
+{
+	background-color: #ffcaca;
+	border-radius: 8px;
+}
+.c2
+{
+	border-radius: 8px;
+	background-color: #e4f7f5;
+}
+.c3
+{
+	border-radius: 8px;
+	background-color: #fff3df;
+}
+.column2 .cards h3
+{
+	font-family: sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	padding-left: 20px;
+	margin: 0;
+
+}
+.column2 .cards p
+{
+	font-family: sans-serif;
+	font-size: 15px;
+	padding-left: 20px;
+	color: #676464;
+	padding-bottom: 20px;
+}
+.cards img
+{
+	width: 300px;
+	height: 400px;
+	display: block;
+	margin: auto;
+}
+
+footer
+{
+	background-color:  #65c4f1;
+	height: 88px;
+	box-shadow: 0px -12px 16px 1px #00000024;
+}
+
+footer h2{
+	font-family: sans-serif;
+	text-align: center;
+	text-transform: capitalize;
+	color: black;
+	margin: 0;
+	padding-top: 32px;
+}
